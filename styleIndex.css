@@ -1,0 +1,56 @@
+
+html{
+	background:url("unsplash.jpg")top center /100% no-repeat;
+}
+.keys{
+	display:flex;
+	flex:1;
+	justify-content:center;
+	align-items: center;
+	min-height:100vh;
+	animation-name:slide;
+	animation-duration:2s;
+}
+
+@keyframes slide{
+	from{
+		margin-left:200%;
+		transform:rotate(90deg);
+	}
+	to{
+		margin-left:0;
+		
+	}
+}
+.key{
+    
+	width:70px;
+	height:60px;
+	margin-left:1rem;
+	padding:1rem .5rem;
+	border:solid 2px #000;
+	background:rgba(0,0,0,0.4);
+	text-shadow:0 0 2px #000;
+	transition-property:all;
+	transition-timing-function:ease;
+	transition-duration:0.3s;
+		
+}
+
+kbd {
+  display: block;
+  font-size: 2rem;
+}
+
+.playing{
+		transform:scale(1.2);
+		border-color:#ffc600;
+		box-shadow: 0 0 1rem #ffc600;
+}
+
+.sound {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
