@@ -1,6 +1,8 @@
 
 html{
 	background:url("unsplash.jpg")top center /100% no-repeat;
+	font-family: Helvetica
+	
 }
 .keys{
 	display:flex;
