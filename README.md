@@ -4,6 +4,6 @@
 
 Basic Javascript project using Keydown event Listener and audio tags.
 
-Screenshot:
+#### Demo:
 
-![Image of site](https://github.com/divinenaman/drum-kit/blob/master/img.png)
+![Demo of site](demo/drun-kit.gif)
